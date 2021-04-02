@@ -9,7 +9,6 @@ const Header = () => {
                 <h2>
                     Gadget&Gear
                 </h2>
-       
         <div className="collapse navbar-collapse d-flex flex-row-reverse m-3" id="navbarNav">
 
             <ul className="navbar-nav d-flex justify-content-around headers">

@@ -28,7 +28,6 @@ const Orders = () => {
                         <th scope="col">Name</th>
                         <th scope="col">Price</th>
                         <th scope="col">Weight</th>
-                        <th scope="col">Quantity</th>
                         <th scope="col">Time</th>
                         </tr>
 
@@ -40,7 +39,6 @@ const Orders = () => {
                         <th scope="row">{order.name}</th>
                         <td>${order.price}</td>
                         <td>{order.weight}</td>
-                        <td>1</td>
                         <td>{order.curTime}</td>
                         </tr>)
                     }

@@ -40,6 +40,7 @@ const Checkout = () => {
                         <th scope="col">Name</th>
                         <th scope="col">Price</th>
                         <th scope="col">Weight</th>
+                        <th scope="col">Quantity</th>
                         <th scope="col">Time</th>
                         </tr>
 
@@ -50,6 +51,7 @@ const Checkout = () => {
                         <th scope="row">{product.name}</th>
                         <td>${product.price}</td>
                         <td>{product.weight}</td>
+                        <td>1</td>
                         <td>{setTime.curTime}</td>
                         </tr>
 

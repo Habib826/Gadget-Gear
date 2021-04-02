@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
-
 import Admin from './Admin';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faTrash } from '@fortawesome/free-solid-svg-icons'
 
 
 const Manage = () => {
@@ -38,8 +39,8 @@ const Manage = () => {
       <th scope="row">{product.name}</th>
       <td>${product.price}</td>
       <td>{product.weight}</td>
-      <td><button  onClick={() => handleDelete(product._id)}>Delete</button></td>
-
+      <td><button className="btn btn-primary" onClick={() => handleDelete(product._id)}><FontAwesomeIcon icon={faTrash}/></button>
+      </td>
        </tr>)
    }
     </tbody>
