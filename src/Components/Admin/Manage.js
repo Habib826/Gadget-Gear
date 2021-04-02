@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
+
 import Admin from './Admin';
+
 
 const Manage = () => {
     const [products, setProducts]= useState([]);
